@@ -6,6 +6,7 @@ import styles from './App.module.css'
 const WowSection = lazy(() => import('./components/WowSection/WowSection'))
 const SocialProof = lazy(() => import('./components/SocialProof/SocialProof'))
 const Summary = lazy(() => import('./components/Summary/Summary'))
+const Trainers = lazy(() => import('./components/Trainers/Trainers'))
 const CTA = lazy(() => import('./components/CTA/CTA'))
 const Footer = lazy(() => import('./components/Footer/Footer'))
 
@@ -19,6 +20,7 @@ export default function App() {
         <WowSection />
         <SocialProof />
         <Summary />
+        <Trainers />
         <CTA />
         <Footer />
       </Suspense>

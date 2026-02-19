@@ -18,7 +18,7 @@ function VideoPlayer() {
     >
       <video
         className={styles.video}
-        src="/summary.mp4"
+        src="https://gymtext-public.ams3.cdn.digitaloceanspaces.com/summary.mp4"
         autoPlay
         muted
         loop

@@ -98,7 +98,7 @@ export default function Hero() {
         >
           <video
             className={styles.demoVideo}
-            src="/logging.mp4"
+            src="https://gymtext-public.ams3.cdn.digitaloceanspaces.com/logging.mp4"
             autoPlay
             muted
             loop
